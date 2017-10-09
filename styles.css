@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  text-align: center;
+}
+form{
+  text-align: center;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+ul{
+  list-style: none;
+}
+
+.recipe{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 10px;
+}
+#results-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.thumbnail{
+  height: fit-content;
+  width: fit-content;
+  margin-left: 60px;
+}
